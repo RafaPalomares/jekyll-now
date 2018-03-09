@@ -55,6 +55,8 @@ figure iframe {width:100%;}
 a.read-more {}
 a.read-more:hover {text-decoration:none !important;}
 
+#mapa {margin-bottom:-11px;}
+
 @media (max-width: 1250px) {
 	.list #post-content,
 	#layout-list:checked ~ #layout-result #post-content {max-width:80%;}
