@@ -20,8 +20,6 @@ Old Steam cap a Tarragona!
 
 <!--more-->
 
-# h1 Title
-## h2 Title
 ### h3 Subtitle
 #### H4 Subtitle
 ##### H5 Sub
