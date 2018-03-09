@@ -8,12 +8,23 @@ permalink: /media/
 		<div id="layout" class="listed">
     		<h3 class="anm-moveFromBottomFade delay-1000"><u>Trio</u></h3>
 			<section>
-			<div class="thumb-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video2 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-			<div class="thumb-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video3 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-			</section>
-			<div class="thumb-4">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video4 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+	<div class="thumb-6 pushed-3">
+    	<figure>
+			<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video2 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
+		</figure>
+		<em><u><a href="https://www.youtube.com/channel/UC9D8DWb0Xu1KI-9ncz4YvNw?sub_confirmation=1">Seguir en YouTube</a></u></em>
+	</div>
+	<div class="thumb-6 pushed-3">
+    	<figure>
+			<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video3 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</figure>
+		<em><u><a href="https://www.youtube.com/channel/UC9D8DWb0Xu1KI-9ncz4YvNw?sub_confirmation=1">Seguir en YouTube</a></u></em>
+	</div>
+			</section>
     		<h3 class="anm-moveFromBottomFade delay-1000"><u>Fotos</u></h3>
 			<section>					
 	{% assign image_files = site.static_files | where: "image", true %}
