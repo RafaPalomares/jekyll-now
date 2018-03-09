@@ -27,7 +27,3 @@ Old Steam cap a Tarragona!
 ###### H6 Text rounded
 
 p Plain Text
-*p Bold 1point*
-**p 2points**
-_p one undeline_
-__p two underline__
