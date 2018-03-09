@@ -68,6 +68,19 @@
 		{% if site.d_press %}<em><u><a href="{{ site.u_fotos }}" target="_blank"><i class="icon-cloud-download"></i> {{ site.d_fotos }}</a></u></em>{% endif %}
 		{% if site.d_press %}<em><u><a href="{{ site.u_all }}" target="_blank"><i class="icon-cloud-download"></i> {{ site.d_all }}</a></u></em>{% endif %}
 						</div>
+						<div id="icons" calss="press-icons">
+{% if site.footer-links.facebook %}<em><small><a href="https://www.facebook.com/{{ site.footer-links.facebook }}" target="blank"><i class="icon-facebook" alt="icona Facebook"></i> <label>{{ site.footer-links.facebook }}</label></a></small></em>{% endif %}
+{% if site.footer-links.twitter %}<em><small><a href="https://www.twitter.com/{{ site.footer-links.twitter }}" target="blank"><i class="icon-twitter" alt="icona Twitter"></i> <label>{{ site.footer-links.twitter }}</label></a></small></em>{% endif %}
+{% if site.footer-links.instagram %}<em><small><a href="https://instagram.com/{{ site.footer-links.instagram }}" target="blank"><i class="icon-instagram" alt="icona Instagram"></i> <label>{{ site.footer-links.instagram }}</label></a></small></em>{% endif %}
+{% if site.footer-links.youtube %}<em><small><a href="https://youtube.com/{{ site.footer-links.youtube }}" target="blank"><i class="icon-youtube" alt="icona Youtube"></i></a> <label>{{ site.footer-links.youtube }}</label></small></em>{% endif %}
+{% if site.footer-links.github %}<em><small><a href="https://github.com/{{ site.footer-links.github }}" target="blank"><i class="icon-github" alt="icona Github"></i></a> <label>{{ site.footer-links.github }}</label></small></em>{% endif %}
+{% if site.footer-links.behance %}<em><small><a href="https://behance.com/user/?username={{ site.footer-links.behance }}" target="blank"><i class="icon-behance" alt="icona Behance"></i> <label>{{ site.footer-links.behance }}</label></a></small></em>{% endif %}
+{% if site.footer-links.googleplus %}<em><small><a href="https://plus.google.com/{{ site.footer-links.googleplus }}" target="blank"><i class="icon-google-plus" alt="icona Google Plus"></i> <label>{{ site.footer-links.googleplus }}</label></a></small></em>{% endif %}
+{% if site.footer-links.linkedin %}<em><small><a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" target="blank"><i class="icon-linkedin" alt="icona Linkedin"></i> <label>{{ site.footer-links.linkedin }}</label></a></small></em>{% endif %}
+{% if site.footer-links.pinterest %}<em><small><a href="https://www.pinterest.com/{{ site.footer-links.pinterest }}" target="blank"><i class="icon-pinterest" alt="icona Pinterest"></i> <label>{{ site.footer-links.pinterest }}</label></a></small></em>{% endif %}
+{% if site.footer-links.flickr %}<em><small><a href="https://www.flickr.com/{{ site.footer-links.flickr }}" target="blank"><i class="icon-flickr" alt="icona Flickr"></i> <label>{{ site.footer-links.flickr }}</label></a></small></em>{% endif %}
+{% if site.footer-links.stackoverflow %}<em><small><a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}" target="blank"><i class="icon-stackoverflow" alt="icona stackoverflow"></i> <label>{{ site.footer-links.stackoverflow }}</label></a></small></em>{% endif %}
+						</div>
 					</div>
 					<hr>
 				</section>
