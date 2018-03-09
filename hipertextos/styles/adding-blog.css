@@ -17,6 +17,7 @@ h3 a:hover {text-decoration:none;}
 .post em u svg { width: 18px;}
 #post-header {border-bottom: 9px solid var(--color-black);}
 #post-img img { border-radius: 50%;height: 210px;float: left;margin: 0 23px 26px 0;object-fit: cover;width: 210px;}
+#post-agenda img { height: 130px!important;float: left;margin: 0 23px 26px 0;object-fit: cover;width: 130px!important;}
 figure iframe {width:100%;}
 #post-share em a {color:#fff;border-radius:50%;}
 #post-share em svg {padding:0px 0px 0px 7px;}
@@ -48,9 +49,6 @@ figure iframe {width:100%;}
 #post-info h6 b {font-weight: normal;}
 #link-image {float: right;font-size:17px;border-bottom:thin solid currentcolor;color:var(--color-hardgrey);text-decoration:none;}
 #link-image:hover {border-bottom:thin solid currentcolor;color:var(--color-link);}
-#post-agenda strong em a {padding:4px 9px 4px 9px;margin-top:10px;font-size:15px;font-weight: normal;border-color:var(--color-grey);color:var(--color-grey);border-radius:3px;margin-right:3px;}
-#post-agenda strong em a:hover {color:var(--color-link);border-color:var(--color-link);text-decoration:none;}
-#post-agenda h3 a:visited {color:#444;}
 #post-agenda strong em svg {width:16px;margin-left:1px;}
 a.read-more {}
 a.read-more:hover {text-decoration:none !important;}
