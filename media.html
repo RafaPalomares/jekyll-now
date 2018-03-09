@@ -7,21 +7,27 @@ permalink: /media/
     <main id="page-main" role="main" class="medias">
 		<div id="layout" class="listed">
     		<h3 class="anm-moveFromBottomFade delay-1000"><u>Trio</u></h3>
-		<div class="thumb-6 pushed-3">
-    		<figure>
-			<div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video2 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    		<div class="thumb-3">
+    			<h4>{{ site.trio }}</h4>
+    		</div>
+			<div class="thumb-9">
+    			<figure>
+					<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video2 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</figure>
 			</div>
-			</figure>
-		</div>
-		<div class="thumb-6 pushed-3">
-    		<figure>
-			<div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video3 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+    		<div class="thumb-3">
+    			<h4>{{ site.quintet }}</h4>
+    		</div>
+			<div class="thumb-">
+    			<figure>
+					<div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ site.video3 }}?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</figure>
 			</div>
-			</figure>
-		</div>
-		<hr>
+			<hr>
     		<h3 class="anm-moveFromBottomFade delay-1000"><u>Fotos</u></h3>
 			<section>					
 	{% assign image_files = site.static_files | where: "image", true %}
