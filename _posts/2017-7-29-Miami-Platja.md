@@ -18,8 +18,17 @@ excerpt_separator: <!--more-->
 
 Old Steam cap a Tarragona!
 
-
-
 <!--more-->
 
+# h1 Title
+## h2 Title
+### h3 Subtitle
+#### H4 Subtitle
+##### H5 Sub
+###### H6 Text rounded
 
+p Plain Text
+*p Bold 1point*
+**p 2points**
+_p one undeline_
+__p two underline__
