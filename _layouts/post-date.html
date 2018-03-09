@@ -4,19 +4,17 @@ comments: true
 ---
 
   	{% include partials/navigation/nav.html %}
-		<div id="back-header" class="img-bolo anm-fadeIn delay-600 extra-slow" style="background-image: url('../{{ page.img }}');">
-		</div>
-		<header id="post-header" class="img-bolo anm-moveFromTop delay-100">
-				<h1 id="post-title" class="anm-moveFromBottomFade delay-300">{{ page.title }}</h1>
-		</header>
+	<header id="page-header" class="img-bolo anm-moveFromTop delay-100">
+		<figure id="post-date">
+			<h1>{{ page.day }}</h1>
+			<h5>{{ page.month }}</h5>
+		</figure>
+		<h1 id="post-title" class="anm-moveFromBottomFade delay-300">{{ page.title }}</h1>
+	</header>
     <main id="page-main">
 		<div>
 			<article id="page-date" class="post anm-fadeIn delay-600">
 				<div id="entry">
-					<figure id="post-date">
-						<h1>{{ page.day }}</h1>
-						<h5>{{ page.month }}</h5>
-					</figure>
 					<figure id="date-img" class="thumb-4 pushed-2">
 						<a href="../{{ page.img }}" data-lightbox="roadtrip"><img src="../{{ page.img }}" alt="Ampliació del cartell de Old Steam"></a>
 					</figure>
