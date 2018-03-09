@@ -3,8 +3,7 @@ layout: post-date
 title: Miami Platja (Tarragona)
 category: agenda
 hora: 22:00h
-day: 29
-month: Juliol
+day: Viernes 29 de Julio
 year: 2017
 local: Miami Platja
 city: Hospitalet del infant
