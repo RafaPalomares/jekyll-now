@@ -2,6 +2,8 @@
 /* ------------------------------------------------------------ Resets */
 
 .agenda#post-header {background-image: url("/img/texture/light.png");background-size:294px 235px;background-repeat: repeat;text-transform:uppercase;}
+.bolos#page-header {background-image: url("/img/texture/dark.png");background-color:var(--color-black);background-size:180px 180px;background-repeat: repeat;image-rendering: crisp-edges;}
+
 #post-header, h3 a, #post-date h5 {font-family: 'Voltaire';}
 .img-bolo#back-header {-webkit-filter:blur(32px);filter:blur(32px);height:100%;width:100%;opacity:.75;
     background-position:;position: top center;position:absolute;top:0;left:0;background-attachment: fixed;background-size: cover;background-repeat: no-repeat;overflow: hidden;text-align: center; }
@@ -25,8 +27,6 @@ figure iframe {width:100%;}
 #ical p {font-size:0.8em;}
 #post-content {color:var(--color-black);}
 
-#page-date #post-date h1 {font-size: 5.6em;margin:0;}
-#page-date #post-date h5 {font-size: 1.4em;margin:5%;}
 #date-img {padding-right:2%;margin-top:5px;}
 #tw {background:var(--color-green);}
 #fb {background:var(--color-blue);}
@@ -37,9 +37,13 @@ figure iframe {width:100%;}
 .nav-scroll label img {width: 18px;height: 18px;}
 .nav-scroll label:hover {border:thin solid transparent;color:var(--color-black);text-decoration:none;}
 /* Category Agenda */
-#post-date {max-width:22%;color:var(--color-red);text-align:center;margin:0;padding:32px 0 0 0;}
+#post-date {color:var(--color-red);text-align:center;margin:0;padding:32px 0 0 0;}
 #post-date h1 {font-weight: lighter;margin:0 0 2px 0;font-size:3.8em;}
 #post-date h5 {font-weight: normal;font-size: 0.85em;}
+
+.bolos #post-date, #post-title {color:var(--color-white);font-weight: lighter;}
+#page-date #post-date h1 {font-size: 5.6em;margin:0;}
+#page-date #post-date h5 {font-size: 1.4em;margin:5%;}
 #link-image {float: right;font-size:17px;border-bottom:thin solid currentcolor;color:var(--color-hardgrey);text-decoration:none;}
 #link-image:hover {border-bottom:thin solid currentcolor;color:var(--color-link);}
 #post-agenda strong em a {padding:4px 9px 4px 9px;margin-top:10px;font-size:15px;font-weight: normal;border-color:var(--color-grey);color:var(--color-grey);border-radius:3px;margin-right:3px;}
