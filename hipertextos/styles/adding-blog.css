@@ -17,7 +17,6 @@ h3 a:hover {text-decoration:none;}
 .post em u svg { width: 18px;}
 #post-header {border-bottom: 9px solid var(--color-black);}
 #post-img img { border-radius: 50%;height: 210px;float: left;margin: 0 23px 26px 0;object-fit: cover;width: 210px;}
-#post-agenda img { height: 130px!important;float: left;margin: 0 23px 26px 0;object-fit: cover;width: 130px!important;}
 figure iframe {width:100%;}
 #post-share em a {color:#fff;border-radius:50%;}
 #post-share em svg {padding:0px 0px 0px 7px;}
