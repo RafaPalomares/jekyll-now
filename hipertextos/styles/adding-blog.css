@@ -44,6 +44,8 @@ figure iframe {width:100%;}
 .bolos #post-date, #post-title {color:var(--color-white);font-weight: lighter;}
 #page-date #post-date h1 {font-size: 5.6em;margin:0;}
 #page-date #post-date h5 {font-size: 1.4em;margin:5%;}
+#post-info h6 { font-family: var(--font-brand);}
+#post-info h6 b {font-weight: normal;}
 #link-image {float: right;font-size:17px;border-bottom:thin solid currentcolor;color:var(--color-hardgrey);text-decoration:none;}
 #link-image:hover {border-bottom:thin solid currentcolor;color:var(--color-link);}
 #post-agenda strong em a {padding:4px 9px 4px 9px;margin-top:10px;font-size:15px;font-weight: normal;border-color:var(--color-grey);color:var(--color-grey);border-radius:3px;margin-right:3px;}
