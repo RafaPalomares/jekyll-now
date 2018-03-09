@@ -60,13 +60,13 @@
 						</div>
 						<div class="press text-left thumb-6">
 							<h4>{{ site.prensa }}</h4>
-							<div id="download">
-		{% if site.d_press %}<em><u><a href="{{ site.u_press }}"><i class="icon-cloud-download"></i> {{ site.d_press }}</a></u></em><br>{% endif %}
-		{% if site.d_press %}<em><u><a href="{{ site.u_rider }}"><i class="icon-cloud-download"></i> {{ site.d_rider }}</a></u></em><br>{% endif %}
-		{% if site.d_press %}<em><u><a href="{{ site.u_fotos }}"><i class="icon-cloud-download"></i> {{ site.d_fotos }}</a></u></em><br>{% endif %}
-		{% if site.d_press %}<em><u><a href="{{ site.u_all }}"><i class="icon-cloud-download"></i> {{ site.d_all }}</a></u></em><br>{% endif %}
-							</div>
 						</div>
+							<div id="download">
+		{% if site.d_press %}<em class="thumb-6"><u><a href="{{ site.u_press }}"><i class="icon-cloud-download"></i> {{ site.d_press }}</a></u></em><br>{% endif %}
+		{% if site.d_press %}<em class="thumb-6"><u><a href="{{ site.u_rider }}"><i class="icon-cloud-download"></i> {{ site.d_rider }}</a></u></em><br>{% endif %}
+		{% if site.d_press %}<em class="thumb-6"><u><a href="{{ site.u_fotos }}"><i class="icon-cloud-download"></i> {{ site.d_fotos }}</a></u></em><br>{% endif %}
+		{% if site.d_press %}<em class="thumb-6"><u><a href="{{ site.u_all }}"><i class="icon-cloud-download"></i> {{ site.d_all }}</a></u></em><br>{% endif %}
+							</div>
 					</div>
 					<hr>
 				</section>
