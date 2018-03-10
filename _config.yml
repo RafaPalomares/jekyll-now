@@ -28,8 +28,11 @@ video7:
 video8:
 video9:
 
-trio: Voz<br>Saxo/flauta<br>Guitarra
-quintet: Voz<br>Saxo/flauta<br>Guitarra<br>contrabajo<br>percusión
+voz: Voz
+sax: Saxo/flauta
+guit: Guitarra
+bass: Contrabajo
+drums: Percusión
 
 # CONTACTO page
 biotitle: Música mediterranea en una noche estrellada
