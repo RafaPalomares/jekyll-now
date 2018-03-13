@@ -167,6 +167,7 @@ em small #go-up:hover {background:var(--color-translucentblack); }
     #covers article img {margin-top:64px;}
    	#covers article {width: 100%;}
     #dialog #phones em a {font-size:2.5em;line-height:1.2em;}
+    #dialog #phones .phones-mail {font-size:1.95em;line-height:1.7em;}
     .youtube {	margin:0;padding-bottom: 16em;}
     .cover-page .thumb-9, .cover-page .thumb-3 {width: 100%;}
 	#dialog .icon-alarm svg {max-width:16px!important;margin:0;padding:0;}
@@ -185,6 +186,7 @@ em small #go-up:hover {background:var(--color-translucentblack); }
     #page-footer h1 small {font-size:69% ;letter-spacing: 0.16em;}
     #page-footer h2 small {font-size:62% ;letter-spacing: 0.005em;}
     #page-footer p {font-size:15px;letter-spacing: 0.02em;}
+    #dialog-icons a {margin-top:12px;font-size:14px!important;}
 }
 
 @media (max-width: 432px) {
@@ -194,4 +196,8 @@ em small #go-up:hover {background:var(--color-translucentblack); }
     #page-footer h2 small {font-size:42% ;letter-spacing: 0.002em;}
     #page-footer p {font-size:9px;letter-spacing: 0.01em;font-weight:lighter;}
     .youtube {	margin:0;padding-bottom: 12em;}
+    #phones img.dialog-svg {width:35px!important;height:35px;float:left;margin-top:-30px;}
+    #dialog #phones em a {font-size:1.6em;line-height: 1.5em}
+    #dialog #phones .phones-mail {font-size:1.3em;line-height:2.1em;}
+    #dialog-icons a {margin-top:12px;font-size:12px!important;}
 }
