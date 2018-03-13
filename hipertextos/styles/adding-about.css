@@ -13,8 +13,9 @@
 .news {width:120px;float:left; margin-top:-6px; margin-right: 23px;margin-bottom:0;color: rgba(0,0,0,.32); }
 #contacto em a { font-size:1.5em;
     width:100%;background:transparent;border:none;border-bottom:2px solid rgba(0,0,0,.2);border-top:2px solid rgba(220,220,220,.032);}
+#contacto em a:hover {text-decoration: none;color:var(--color-white);}
 #contacto em b {color:var(--color-hardgrey);}
-#info-about, .info {text-align:center;margin-bottom:23px;}
+#info-about, .info {text-align:center;margin-bottom:23px;font-family: var(--font-brand);}
 #info-about a, #prensa a {text-decoration:none!important;}
 #info-about, #prensa {border:6px solid rgba(245,245,245,1);border-radius:8px;}
 .info button { color:var(--color-soft);text-transform:uppercase;font-family: 'Voltaire'; font-size:28px;opacity:.69;
@@ -30,22 +31,25 @@
 h3 { line-height:1.0em; }
 
 @media (max-width: 1250px) {
-  	.cover-page #page-main ul {-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;}
     .cover-page p {font-size:16px;line-height:1.8em;}
     .cover-page ul li {font-size:14px;line-height:1.5em;margin-top:5px;padding:0;}
 }
 @media (max-width: 768px) {
-    div .columns-2 {-webkit-column-count: 1;-moz-column-count: 1;column-count: 1;}
-    .cell-x2 {width:50%;}
-    .cell-x2 h6 {font-size: 16px;font-weight: lighter ;}
-    .thumb-x2 {width:32%;}
-    .thumb-x8 {width:68%;}
+    .thumb-6 {width:100%!important;text-align:center;}
+    #download em u a {font-size:.9em!important;}
+    #download em i svg {font-size:.9em!important;}
+    .press h5, #info-about h3 {font-size:1.6em;padding:0 15px 0 15px;}
+    #contacto em a {font-size: 1.4em;}
+    #branding figure a img {width:80%;}
 }
 @media (max-width: 432px) {
-    .cell-x2 {width:100%;}
-    .cell-x2 h6 {font-size: 19px;font-weight: lighter ;}
-    .thumb-x2, .thumb-x8 {width:100%;margin:0;}
+    #download em u a {font-size:18px!important;}
+    #contacto em a {font-size: 1.2em;line-height:1.6em;}
+    #branding figure a img {width:96%;}
+    #page-footer p {font-size:15px;line-height:2.1em;letter-spacing: 0.06em ;}
+    #page-footer #info-seo h1 a {line-height:3.6em;}
 }
+
 
 
 

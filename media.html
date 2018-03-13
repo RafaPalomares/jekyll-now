@@ -4,9 +4,9 @@ title: Media
 permalink: /media/
 ---
 
-    <main id="page-main" role="main" class="medias">
+    <main id="page-main" role="main" class="medias anm-fadeIn delay-900">
 		<div id="layout" class="listed">
-    		<h3 class="anm-moveFromBottomFade delay-1000"><u>Trio</u></h3>
+    		<h3><u>Trio</u></h3>
     		<label>{{ site.voz }}</label>
     		<label>{{ site.sax }}</label>
     		<label>{{ site.guit }}</label>
@@ -27,7 +27,7 @@ permalink: /media/
 				</figure>
 			</div>
 			{% endif %}
-    		<h3 class="anm-moveFromBottomFade delay-1000"><u>Quinteto</u></h3>
+    		<h3><u>Quinteto</u></h3>
     		<label>{{ site.voz }}</label>
     		<label>{{ site.sax }}</label>
     		<label>{{ site.guit }}</label>
@@ -42,7 +42,7 @@ permalink: /media/
 				</figure>
 			</div>
 			<hr>
-    		<h3 class="anm-moveFromBottomFade delay-1000"><u>Fotos</u></h3>
+    		<h3><u>Fotos</u></h3>
 			<section>					
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
